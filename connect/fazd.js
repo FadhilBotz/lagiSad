@@ -67,9 +67,9 @@ prefa = "#"
     const _scommand = JSON.parse(fs.readFileSync("./connect/scommand.json"))
     const mess = JSON.parse(fs.readFileSync('./connect/mess.json'));
 
-    const ownerNumber = ["6285757306288@s.whatsapp.net", "6287863200063@s.whatsapp.net", "6281233962128@s.whatsapp.net", "628871746203@s.whatsapp.net"]
-    //const ownerName = ""
-    //const botName = "XFazd Bot"
+    const ownerNumber = ["6288271771627@s.whatsapp.net", "6287863200063@s.whatsapp.net", "6281233962128@s.whatsapp.net", "628871746203@s.whatsapp.net"]
+    //const ownerName = "FADHIL STORE"
+    //const botName = "FADHIL-BOTZ"
 
 const addCmd = (id, command) => {
     const obj = { id: id, chats: command }
